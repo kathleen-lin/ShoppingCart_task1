@@ -40,7 +40,7 @@ public class ShoppingCart {
                         e.printStackTrace();
                     }
 
-                    System.out.printf("%s shopping cart loaded (new)\n", load[1]);
+                    System.out.printf("%s shopping cart loaded\n", load[1]);
                     CommandHandler handler = new CommandHandler(cart);
 
                     while (true){
@@ -71,7 +71,7 @@ public class ShoppingCart {
                         e.printStackTrace();
                     }
 
-                    System.out.printf("%s shopping cart loaded (existing)\n", load[1]);
+                    System.out.printf("%s shopping cart loaded\n", load[1]);
 
                     CommandHandler handler = new CommandHandler(cart);
                     
